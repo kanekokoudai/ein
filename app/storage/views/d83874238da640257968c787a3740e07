@@ -1,0 +1,6 @@
+<html>
+    <body>
+<h1>Laravelクイックスタート</h1>
+        <?php echo $__env->yieldContent('content'); ?>
+    </body>
+</html>

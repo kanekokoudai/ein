@@ -1,0 +1,305 @@
+[2013-10-25 09:59:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 10:06:36] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:08:08] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:08:10] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:08:11] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(20): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:08:45] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(17): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(17): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:09:37] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:09:39] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:10:11] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 10:10:50] log.ERROR: exception 'InvalidArgumentException' with message 'View [users] not found.' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('users', Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('users')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\View\Environment->make('users')
+#3 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/sftp-user/test/laravel/ein/app/routes.php(21): Illuminate\Support\Facades\View::make('users')
+#5 [internal function]: {closure}()
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-25 11:40:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 12:08:26] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /home/sftp-user/test/laravel/ein/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-10-25 12:09:26] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '?'' in /home/sftp-user/test/laravel/ein/app/storage/views/dc9e64a8feb0394a7a57c97e01173869:1
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-10-25 12:09:34] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '?'' in /home/sftp-user/test/laravel/ein/app/storage/views/dc9e64a8feb0394a7a57c97e01173869:1
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-10-25 21:28:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:29:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:30:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:32:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:32:58] log.ERROR: exception 'ErrorException' with message 'Undefined variable: url' in /home/sftp-user/test/laravel/ein/app/routes.php:29
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/app/routes.php(29): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/sftp-user...', 29, Array)
+#1 [internal function]: {closure}()
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2013-10-25 21:36:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:36:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:36:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 21:37:17] log.ERROR: exception 'ErrorException' with message 'Undefined variable: users' in /home/sftp-user/test/laravel/ein/app/storage/views/dc9e64a8feb0394a7a57c97e01173869:2
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/app/storage/views/dc9e64a8feb0394a7a57c97e01173869(2): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/sftp-user...', 2, Array)
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/sftp-user...')
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sftp-user...', Array)
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/sftp-user...', Array)
+#4 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/sftp-user/test/laravel/ein/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2013-10-25 22:54:04] log.ERROR: exception 'ErrorException' with message 'Undefined variable: user' in /home/sftp-user/test/laravel/ein/app/routes.php:22
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/app/routes.php(22): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/sftp-user...', 22, Array)
+#1 [internal function]: {closure}()
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2013-10-25 22:57:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 22:58:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 22:58:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 22:59:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 22:59:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-10-25 22:59:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/sftp-user/test/laravel/ein/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/sftp-user/test/laravel/ein/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
